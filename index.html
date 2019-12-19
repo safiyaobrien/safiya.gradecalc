@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Safiya's Horoscope Project</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="content"></div>
+
+    <h1> Final Exam Grade Calculator </h1>
+
+<table style="width:50%"
+    align="center">
+    <tr>
+        <th>Category</th>
+        <th>Grades</th>
+        <th>Weight(%)</th>
+    </tr>
+    <tr>
+        <td>Homework</td>
+        <td><div><input type="text" id="homeworkGrade" placeholder="Homework Grade(%)" /></div></td>
+        <td><div><input type="text" id="homeworkWeight" placeholder="Homework Grade(%)" /></div></td>
+    </tr>
+    <tr>
+        <td>Classwork</td>
+        <td><div><input type="text" id="classworkGrade" placeholder="Classwork Grade(%)" /></div></td>
+        <td><div><input type="text" id="classworkWeight" placeholder="Classwork Grade(%)" /></div></td>
+    </tr>
+    <tr>
+        <td>Tests</td>
+        <td><div><input type="text" id="testGrade" placeholder="Test Grade(%)" /></div></td>
+        <td><div><input type="text" id="testWeight" placeholder="Test Grade(%)" /></div></td>
+    </tr>
+    <tr>
+        <td>Participation</td>
+        <td><div><input type="text" id="participationGrade" placeholder="Partipation Grade(%)" /></div></td>
+        <td><div><input type="text" id="participationWeight" placeholder="Participation Weight(%)" /></div></td>
+    </tr>
+    <tr>
+        <td>Projects</td>
+        <td><div><input type="text" id="projectGrade" placeholder="Project Grade(%)" /></div></td>
+        <td><div><input type="text" id="projectWeight" placeholder="Project Weight(%)" /></div></td>
+    </tr>
+
+</table>
+<table style="width:50%"
+            align="center">
+<tr>
+    <th>Desired Gade in Class</th>
+    <th>Weight of Final</th>
+</tr>
+<tr>
+    <td><div><input type="text" id="desiredGrade"placeholder="Desired Grade (%)" /></div></td>
+    <td><div><input type="text" id="finalWeight" placeholder="Enter Weight (%)" /></div></td>
+</tr>
+</table>
+
+<button onclick="currentGrade()"> Calculate Current Grade!</button>
+<div id="currentGrades"></div>
+
+<button onclick="finalGrade()"> Calculate Final Grade!</button>
+<div id="finalGrades"></div>
+
+<button onclick="reset()"> Reset</button>
+<div id="reset"></div>
+
+</body>
+</html>
+
+
+
+
+
+
+
